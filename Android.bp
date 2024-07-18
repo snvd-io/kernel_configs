@@ -22,3 +22,9 @@ prebuilt_etc {
     src: "approved-ogki-builds.xml",
     sub_dir: "kernel",
 }
+
+prebuilt_etc {
+    name: "kernel-lifetimes.xml",
+    src: "kernel-lifetimes.xml",
+    sub_dir: "kernel",
+}
