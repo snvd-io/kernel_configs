@@ -1,4 +1,1 @@
-adelva@google.com
-elsk@google.com
-sspatil@google.com
-tkjos@google.com
+include kernel/common:android-mainline:/OWNERS
