@@ -27,13 +27,22 @@
         </xs:complexType>
     </xs:element>
     <xs:complexType name="branch">
-        <xs:sequence>
-            <xs:element name="release" type="release" minOccurs="0" maxOccurs="unbounded"/>
-        </xs:sequence>
+        <xs:choice>
+            <xs:element name="no-releases" type="no-releases"/>
+            <xs:element name="lts-versions" type="lts-versions"/>
+        </xs:choice>
         <xs:attribute name="name" type="xs:string" use="required"/>
         <xs:attribute name="version" type="xs:string" use="required"/>
         <xs:attribute name="launch" type="xs:date" use="required"/>
         <xs:attribute name="eol" type="xs:date" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="no-releases">
+        <xs:attribute name="reason" type="xs:string" fixed="non-GKI kernel"/>
+    </xs:complexType>
+    <xs:complexType name="lts-versions">
+        <xs:sequence>
+            <xs:element name="release" type="release" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
     </xs:complexType>
     <xs:complexType name="release">
         <xs:attribute name="version" type="xs:string" use="required"/>
