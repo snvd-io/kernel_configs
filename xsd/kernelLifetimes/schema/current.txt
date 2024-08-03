@@ -5,12 +5,15 @@ package kernel.lifetimes {
     ctor public Branch();
     method public javax.xml.datatype.XMLGregorianCalendar getEol();
     method public javax.xml.datatype.XMLGregorianCalendar getLaunch();
+    method public kernel.lifetimes.LtsVersions getLtsVersions_optional();
     method public String getName();
-    method public java.util.List<kernel.lifetimes.Release> getRelease();
+    method public kernel.lifetimes.NoReleases getNoReleases_optional();
     method public String getVersion();
     method public void setEol(javax.xml.datatype.XMLGregorianCalendar);
     method public void setLaunch(javax.xml.datatype.XMLGregorianCalendar);
+    method public void setLtsVersions_optional(kernel.lifetimes.LtsVersions);
     method public void setName(String);
+    method public void setNoReleases_optional(kernel.lifetimes.NoReleases);
     method public void setVersion(String);
   }
 
@@ -19,6 +22,17 @@ package kernel.lifetimes {
     method public java.util.List<kernel.lifetimes.Branch> getBranch();
     method public int getSchema_version();
     method public void setSchema_version(int);
+  }
+
+  public class LtsVersions {
+    ctor public LtsVersions();
+    method public java.util.List<kernel.lifetimes.Release> getRelease();
+  }
+
+  public class NoReleases {
+    ctor public NoReleases();
+    method public String getReason();
+    method public void setReason(String);
   }
 
   public class Release {
