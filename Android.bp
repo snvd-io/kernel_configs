@@ -28,3 +28,10 @@ prebuilt_etc {
     src: "kernel-lifetimes.xml",
     sub_dir: "kernel",
 }
+
+filegroup {
+    name: "kernel_lifetimes_ref",
+    srcs: [
+        "kernel-lifetimes.xml",
+    ],
+}
