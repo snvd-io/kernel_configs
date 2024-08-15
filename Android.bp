@@ -40,3 +40,10 @@ license {
     ],
     // large-scale-change unable to identify any license_text files
 }
+
+filegroup {
+    name: "kernel_lifetimes_ref",
+    srcs: [
+        "kernel-lifetimes.xml",
+    ],
+}
