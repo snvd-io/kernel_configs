@@ -6,14 +6,14 @@
 	<branch name="android-4.19" version="4.19" launch="2018-10-22" eol="2025-01-01">
 		<no-releases reason="non-GKI kernel"/>
 	</branch>
-	<branch name="android11-5.4" version="5.4" launch="2019-11-24" eol="2026-01-01">
+	<branch name="android11-5.4" min_android_release="11" version="5.4" launch="2019-11-24" eol="2026-01-01">
 		<no-releases reason="non-GKI kernel"/>
 	</branch>
-	<branch name="android12-5.4" version="5.4" launch="2019-11-24" eol="2026-01-01">
+	<branch name="android12-5.4" min_android_release="12" version="5.4" launch="2019-11-24" eol="2026-01-01">
 		<no-releases reason="non-GKI kernel"/>
 	</branch>
 
-	<branch name="android12-5.10" version="5.10" launch="2020-12-13" eol="2027-07-01">
+	<branch name="android12-5.10" min_android_release="12" version="5.10" launch="2020-12-13" eol="2027-07-01">
 		<lts-versions>
 			<release version="5.10.198" launch="2023-11-14" eol="2024-11-01"/>
 			<release version="5.10.205" launch="2024-03-12" eol="2024-11-01"/>
@@ -21,7 +21,7 @@
 		</lts-versions>
 	</branch>
 
-	<branch name="android13-5.10" version="5.10" launch="2020-12-13" eol="2027-07-01">
+	<branch name="android13-5.10" min_android_release="13" version="5.10" launch="2020-12-13" eol="2027-07-01">
 		<lts-versions>
 			<release version="5.10.189" launch="2023-10-31" eol="2024-11-01"/>
 			<release version="5.10.198" launch="2023-12-13" eol="2024-11-01"/>
@@ -31,7 +31,7 @@
 		</lts-versions>
 	</branch>
 
-	<branch name="android13-5.15" version="5.15" launch="2021-10-31" eol="2028-07-01">
+	<branch name="android13-5.15" min_android_release="13" version="5.15" launch="2021-10-31" eol="2028-07-01">
 		<lts-versions>
 			<release version="5.15.123" launch="2023-10-27" eol="2024-11-01"/>
 			<release version="5.15.137" launch="2023-12-13" eol="2024-11-01"/>
@@ -41,7 +41,7 @@
 		</lts-versions>
 	</branch>
 
-	<branch name="android14-5.15" version="5.15" launch="2021-10-31" eol="2028-07-01">
+	<branch name="android14-5.15" min_android_release="14" version="5.15" launch="2021-10-31" eol="2028-07-01">
 		<lts-versions>
 			<release version="5.15.123" launch="2023-10-27" eol="2024-11-01"/>
 			<release version="5.15.137" launch="2023-12-13" eol="2024-11-01"/>
@@ -52,7 +52,7 @@
 		</lts-versions>
 	</branch>
 
-	<branch name="android14-6.1" version="6.1" launch="2022-12-11" eol="2029-07-01">
+	<branch name="android14-6.1" min_android_release="14" version="6.1" launch="2022-12-11" eol="2029-07-01">
 		<lts-versions>
 			<release version="6.1.43" launch="2023-10-31" eol="2024-11-01"/>
 			<release version="6.1.57" launch="2023-12-15" eol="2024-11-01"/>
@@ -62,7 +62,7 @@
 		</lts-versions>
 	</branch>
 
-	<branch name="android15-6.6" version="6.6" launch="2023-10-29" eol="2028-07-01">
+	<branch name="android15-6.6" min_android_release="15" version="6.6" launch="2023-10-29" eol="2028-07-01">
 		<lts-versions>
 			<release version="6.6.30" launch="2024-07-12" eol="2025-08-01"/>
 		</lts-versions>
