@@ -32,6 +32,7 @@
             <xs:element name="lts-versions" type="lts-versions"/>
         </xs:choice>
         <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="min_android_release" type="xs:int"/>
         <xs:attribute name="version" type="xs:string" use="required"/>
         <xs:attribute name="launch" type="xs:date" use="required"/>
         <xs:attribute name="eol" type="xs:date" use="required"/>
