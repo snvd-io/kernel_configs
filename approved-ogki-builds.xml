@@ -5,5 +5,7 @@
     <branch name="android15-6.6">
         <build id="9541494216af24d2fffb20356a05ab797b7de641eef05b748dfe217dd9778e2a" bug="359105495"/>
         <build id="fbde0e8f64bf18d9695ef2d77bc43f57097b5001a95b09802a887dacb20044de" bug="355127761"/>
+        <build id="0ae1f2faa245584c5e28f48a36137eab04bcf0d72f0839304145ecd8a289f759" bug="362162679"/>
+        <build id="33c3a0275689e4e1ec425168c518bb2a19067d15134b8a378d9f559e81a158a2" bug="365040462"/>
     </branch>
 </ogki-approved>
