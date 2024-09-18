@@ -8,5 +8,6 @@
         <build id="0ae1f2faa245584c5e28f48a36137eab04bcf0d72f0839304145ecd8a289f759" bug="362162679"/>
         <build id="33c3a0275689e4e1ec425168c518bb2a19067d15134b8a378d9f559e81a158a2" bug="365040462"/>
         <build id="0141db8fab24fa166137f8ab0a22ab2f50e3cf7b582e1619713641e27604b42d" bug="365050796"/>
+        <build id="cef7d3cb5e807a1290e8ebfec13d82666e7e9fea3607b9b85a1c98ad660b5db2" bug="367569362"/>
     </branch>
 </ogki-approved>
